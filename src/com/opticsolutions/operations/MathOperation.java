@@ -6,13 +6,18 @@ public class MathOperation {
 		System.out.println(Math.max(3, 5)); // 5
 		System.out.println(Math.min(3, 5));	// 3
 		System.out.println(Math.sqrt(4));	// 2.0
-		int absoluteValue = Math.abs(-5);
-		System.out.println(absoluteValue);	// 5
+		System.out.println(Math.abs(-5));	// 5
 		
+		// 0 divide by zero.zery is flagged as not a number by JVM
 		System.out.println(Math.sqrt(-1));	// NaN
 		System.out.println(0 / 0.0);		// NaN
 		System.out.println((0 / 0.0) + 5);	// NaN
 		
+		/* Any  positive number greater zero divided floating point zero
+		 * is positive infinity
+		 * Any negative none zero number divided by floating point zero
+		 * is negative infinity
+		 */
 		System.out.println(5 / 0.0);		// Infinity
 		System.out.println(-5 / 0.0);		// -Infinity
 		
