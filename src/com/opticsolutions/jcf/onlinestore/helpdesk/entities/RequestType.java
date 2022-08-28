@@ -1,7 +1,6 @@
-package com.opticsolutions.onlinestore.helpdesk.entities;
+package com.opticsolutions.jcf.onlinestore.helpdesk.entities;
 
-import static com.opticsolutions.onlinestore.helpdesk.entities.Priority.*;
-
+import static com.opticsolutions.jcf.onlinestore.helpdesk.entities.Priority.*;
 public enum RequestType {
 	
 		OTHER(LOW), CHANGE_ACCOUNT_DETAILS(LOW), CAN_NOT_LOGIN(MEDIUM), 

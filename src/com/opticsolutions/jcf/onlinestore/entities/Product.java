@@ -1,4 +1,4 @@
-package com.opticsolutions.onlinestore.entities;
+package com.opticsolutions.jcf.onlinestore.entities;
 
 public interface Product {
 

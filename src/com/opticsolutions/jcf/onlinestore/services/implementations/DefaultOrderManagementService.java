@@ -1,10 +1,11 @@
-package com.opticsolutions.onlinestore.services.implementations;
+package com.opticsolutions.jcf.onlinestore.services.implementations;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.opticsolutions.onlinestore.entities.Order;
-import com.opticsolutions.onlinestore.services.OrderManagement;
+import com.opticsolutions.jcf.onlinestore.entities.Order;
+import com.opticsolutions.jcf.onlinestore.services.OrderManagement;
+
 
 public class DefaultOrderManagementService implements OrderManagement {
 

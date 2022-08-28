@@ -1,9 +1,9 @@
-package com.opticsolutions.onlinestore.configs;
+package com.opticsolutions.jcf.onlinestore.configs;
 
-import com.opticsolutions.onlinestore.entities.Cart;
-import com.opticsolutions.onlinestore.entities.User;
-import com.opticsolutions.onlinestore.entities.implementations.DefaultCart;
-import com.opticsolutions.onlinestore.menu.Menu;
+import com.opticsolutions.jcf.onlinestore.entities.Cart;
+import com.opticsolutions.jcf.onlinestore.entities.User;
+import com.opticsolutions.jcf.onlinestore.entities.implementations.DefaultCart;
+import com.opticsolutions.jcf.onlinestore.menu.Menu;
 
 public class ApplicationContext {
 	

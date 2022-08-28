@@ -1,8 +1,8 @@
-package com.opticsolutions.onlinestore.helpdesk.utils;
+package com.opticsolutions.jcf.onlinestore.helpdesk.utils;
 
 import java.util.Comparator;
 
-import com.opticsolutions.onlinestore.helpdesk.entities.SupportTicket;
+import com.opticsolutions.jcf.onlinestore.helpdesk.entities.SupportTicket;
 
 
 public class CustomSupportTicketsComparator implements Comparator<SupportTicket> {

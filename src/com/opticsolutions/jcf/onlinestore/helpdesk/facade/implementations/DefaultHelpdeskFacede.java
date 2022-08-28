@@ -1,11 +1,11 @@
-package com.opticsolutions.onlinestore.helpdesk.facade.implementations;
+package com.opticsolutions.jcf.onlinestore.helpdesk.facade.implementations;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-import com.opticsolutions.onlinestore.helpdesk.entities.SupportTicket;
-import com.opticsolutions.onlinestore.helpdesk.facade.HelpdeskFacade;
-import com.opticsolutions.onlinestore.helpdesk.utils.CustomSupportTicketsComparator;
+import com.opticsolutions.jcf.onlinestore.helpdesk.entities.SupportTicket;
+import com.opticsolutions.jcf.onlinestore.helpdesk.facade.HelpdeskFacade;
+import com.opticsolutions.jcf.onlinestore.helpdesk.utils.CustomSupportTicketsComparator;
 
 
 

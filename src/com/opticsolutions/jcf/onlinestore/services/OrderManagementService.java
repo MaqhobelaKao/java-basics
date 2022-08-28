@@ -1,8 +1,8 @@
-package com.opticsolutions.onlinestore.services;
+package com.opticsolutions.jcf.onlinestore.services;
 
 import java.util.List;
 
-import com.opticsolutions.onlinestore.entities.Order;
+import com.opticsolutions.jcf.onlinestore.entities.Order;
 
 
 public interface OrderManagementService {

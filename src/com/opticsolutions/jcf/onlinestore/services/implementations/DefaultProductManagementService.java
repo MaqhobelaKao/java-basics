@@ -1,12 +1,13 @@
-package com.opticsolutions.onlinestore.services.implementations;
+package com.opticsolutions.jcf.onlinestore.services.implementations;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.opticsolutions.onlinestore.entities.Product;
-import com.opticsolutions.onlinestore.entities.implementations.DefaultProduct;
-import com.opticsolutions.onlinestore.services.ProductManagementService;
+import com.opticsolutions.jcf.onlinestore.entities.Product;
+import com.opticsolutions.jcf.onlinestore.entities.implementations.DefaultProduct;
+import com.opticsolutions.jcf.onlinestore.services.ProductManagementService;
+
 
 public class DefaultProductManagementService implements ProductManagementService {
 	

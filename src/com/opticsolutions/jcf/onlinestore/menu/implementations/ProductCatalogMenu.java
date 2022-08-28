@@ -1,14 +1,15 @@
-package com.opticsolutions.onlinestore.menu.implementations;
+package com.opticsolutions.jcf.onlinestore.menu.implementations;
 
 import java.util.List;
 import java.util.Scanner;
 
-import com.opticsolutions.onlinestore.configs.ApplicationContext;
-import com.opticsolutions.onlinestore.entities.Cart;
-import com.opticsolutions.onlinestore.entities.Product;
-import com.opticsolutions.onlinestore.menu.Menu;
-import com.opticsolutions.onlinestore.services.ProductManagementService;
-import com.opticsolutions.onlinestore.services.implementations.DefaultProductManagementService;
+import com.opticsolutions.jcf.onlinestore.configs.ApplicationContext;
+import com.opticsolutions.jcf.onlinestore.entities.Cart;
+import com.opticsolutions.jcf.onlinestore.entities.Product;
+import com.opticsolutions.jcf.onlinestore.menu.Menu;
+import com.opticsolutions.jcf.onlinestore.services.ProductManagementService;
+import com.opticsolutions.jcf.onlinestore.services.implementations.DefaultProductManagementService;
+
 
 public class ProductCatalogMenu implements Menu {
 

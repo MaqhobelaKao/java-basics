@@ -1,6 +1,6 @@
-package com.opticsolutions.onlinestore.entities.implementations;
+package com.opticsolutions.jcf.onlinestore.entities.implementations;
 
-import com.opticsolutions.onlinestore.entities.Product;
+import com.opticsolutions.jcf.onlinestore.entities.Product;
 
 public class DefaultProduct implements Product{
 

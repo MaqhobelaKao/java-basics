@@ -1,9 +1,9 @@
-package com.opticsolutions.onlinestore.menu.implementations;
+package com.opticsolutions.jcf.onlinestore.menu.implementations;
 
-import com.opticsolutions.onlinestore.configs.ApplicationContext;
-import com.opticsolutions.onlinestore.menu.Menu;
+import com.opticsolutions.jcf.onlinestore.configs.ApplicationContext;
+import com.opticsolutions.jcf.onlinestore.menu.Menu;
 
-public class SignOutMenu implements Menu {
+public class SignOutMenu implements Menu{
 
 	private ApplicationContext context;
 	

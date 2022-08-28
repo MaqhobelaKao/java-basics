@@ -1,7 +1,7 @@
-package com.opticsolutions.onlinestore;
+package com.opticsolutions.jcf.onlinestore;
 
-import com.opticsolutions.onlinestore.menu.Menu;
-import com.opticsolutions.onlinestore.menu.implementations.MainMenu;
+import com.opticsolutions.jcf.onlinestore.menu.Menu;
+import com.opticsolutions.jcf.onlinestore.menu.implementations.MainMenu;
 
 public class Main {
 

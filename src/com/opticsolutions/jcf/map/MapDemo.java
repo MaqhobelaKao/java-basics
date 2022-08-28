@@ -1,5 +1,12 @@
 package com.opticsolutions.jcf.map;
 
+import java.util.HashMap;
+import java.util.Map;
+
+import com.opticsolutions.jcf.onlinestore.entities.Product;
+import com.opticsolutions.jcf.onlinestore.entities.User;
+import com.opticsolutions.jcf.onlinestore.entities.implementations.DefaultProduct;
+import com.opticsolutions.jcf.onlinestore.entities.implementations.DefaultUser;
 
 public class MapDemo {
 

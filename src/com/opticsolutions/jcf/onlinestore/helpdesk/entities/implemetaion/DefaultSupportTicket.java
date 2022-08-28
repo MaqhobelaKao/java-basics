@@ -1,8 +1,8 @@
-package com.opticsolutions.onlinestore.helpdesk.entities.implemetaion;
+package com.opticsolutions.jcf.onlinestore.helpdesk.entities.implemetaion;
 
-import com.opticsolutions.onlinestore.helpdesk.entities.Priority;
-import com.opticsolutions.onlinestore.helpdesk.entities.RequestType;
-import com.opticsolutions.onlinestore.helpdesk.entities.SupportTicket;
+import com.opticsolutions.jcf.onlinestore.helpdesk.entities.Priority;
+import com.opticsolutions.jcf.onlinestore.helpdesk.entities.RequestType;
+import com.opticsolutions.jcf.onlinestore.helpdesk.entities.SupportTicket;
 
 public class DefaultSupportTicket implements SupportTicket {
 private static int counter;

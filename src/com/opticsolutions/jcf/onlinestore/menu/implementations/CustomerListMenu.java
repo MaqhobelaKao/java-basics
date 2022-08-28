@@ -1,12 +1,12 @@
-package com.opticsolutions.onlinestore.menu.implementations;
+package com.opticsolutions.jcf.onlinestore.menu.implementations;
 
 import java.util.List;
 
-import com.opticsolutions.onlinestore.configs.ApplicationContext;
-import com.opticsolutions.onlinestore.entities.User;
-import com.opticsolutions.onlinestore.menu.Menu;
-import com.opticsolutions.onlinestore.services.UserManagementService;
-import com.opticsolutions.onlinestore.services.implementations.DefaultUserManagementService;
+import com.opticsolutions.jcf.onlinestore.configs.ApplicationContext;
+import com.opticsolutions.jcf.onlinestore.entities.User;
+import com.opticsolutions.jcf.onlinestore.menu.Menu;
+import com.opticsolutions.jcf.onlinestore.services.UserManagementService;
+import com.opticsolutions.jcf.onlinestore.services.implementations.DefaultUserManagementService;
 
 
 public class CustomerListMenu implements Menu {

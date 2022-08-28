@@ -1,4 +1,4 @@
-package com.opticsolutions.onlinestore.helpdesk.entities;
+package com.opticsolutions.jcf.onlinestore.helpdesk.entities;
 
 public interface SupportTicket {
 	Priority getPriority();

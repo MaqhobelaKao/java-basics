@@ -1,4 +1,4 @@
-package com.opticsolutions.onlinestore.menu;
+package com.opticsolutions.jcf.onlinestore.menu;
 
 public interface Menu {
 	void start();

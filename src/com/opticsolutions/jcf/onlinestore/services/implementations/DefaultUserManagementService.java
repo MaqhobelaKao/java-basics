@@ -1,10 +1,10 @@
-package com.opticsolutions.onlinestore.services.implementations;
+package com.opticsolutions.jcf.onlinestore.services.implementations;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.opticsolutions.onlinestore.entities.User;
-import com.opticsolutions.onlinestore.services.UserManagementService;
+import com.opticsolutions.jcf.onlinestore.entities.User;
+import com.opticsolutions.jcf.onlinestore.services.UserManagementService;
 
 public class DefaultUserManagementService implements UserManagementService {
 	

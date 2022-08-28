@@ -1,8 +1,8 @@
-package com.opticsolutions.onlinestore.services;
+package com.opticsolutions.jcf.onlinestore.services;
 
 import java.util.List;
 
-import com.opticsolutions.onlinestore.entities.User;
+import com.opticsolutions.jcf.onlinestore.entities.User;
 
 
 public interface UserManagementService {

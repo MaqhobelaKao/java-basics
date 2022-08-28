@@ -1,6 +1,6 @@
-package com.opticsolutions.onlinestore.entities.implementations;
+package com.opticsolutions.jcf.onlinestore.entities.implementations;
 
-import com.opticsolutions.onlinestore.entities.User;
+import com.opticsolutions.jcf.onlinestore.entities.User;
 
 public class DefaultUser implements User {
 	private int id;

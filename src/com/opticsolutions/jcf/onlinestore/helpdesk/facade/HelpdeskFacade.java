@@ -1,6 +1,6 @@
-package com.opticsolutions.onlinestore.helpdesk.facade;
+package com.opticsolutions.jcf.onlinestore.helpdesk.facade;
 
-import com.opticsolutions.onlinestore.helpdesk.entities.SupportTicket;
+import com.opticsolutions.jcf.onlinestore.helpdesk.entities.SupportTicket;
 
 public interface HelpdeskFacade {
 	SupportTicket getNextSupportTicket();
