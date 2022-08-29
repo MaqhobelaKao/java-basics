@@ -169,6 +169,40 @@ public class DefaultMyListParameterized<T> implements MyListParameterized<T>, Li
 		return obj;
 
 	}
+	
+	
+	/**
+	 * Overrides toString method so result would be in the format 
+	 * {[result of the toString method for element #1], [result of the toString method for element #2], ... }
+	 * 
+	 * @return formatted String.
+	 */
+	
+	@Override
+	public String toString() {
+		if (first == null) {
+			return "{}";
+		}
+		
+		StringBuilder sb = new StringBuilder();
+		sb.append('{');
+		
+		for (Node<T> x = first; x != null; x = x.next) {
+			sb.append('[')
+			  .append(x.data);
+			
+			if (x.next == null) {
+				break;
+			}
+			sb.append(']')
+			  .append(',')
+			  .append(' ');
+		}
+		
+		return sb.append(']')
+				 .append('}')
+				 .toString();
+	}
 
 	/**
 	 * Removes object from MyListImpl by its own index.
