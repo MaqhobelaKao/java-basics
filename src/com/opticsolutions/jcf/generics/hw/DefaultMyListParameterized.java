@@ -90,10 +90,25 @@ public class DefaultMyListParameterized<T> implements MyListParameterized<T>, Li
 		return false;
 	}
 
+	/**
+	 * Returns an array containing all of the elements in this list in proper
+	 * sequence (from first to last element).
+	 * 
+	 * This method acts as bridge between array-based and collection-based
+	 * APIs.
+	 *
+	 * @return an array containing all of the elements in this list in proper
+	 *         sequence
+	 */
+	
 	@Override
 	public Object[] toArray() {
-		// TODO Auto-generated method stub
-		return null;
+		Object[] result = new Object[size];
+		int index = 0;
+		for (Node<T> x = first; x != null; x = x.next) {
+			result[index++] = x.data;
+		}
+		return result;
 	}
 
 	@Override
