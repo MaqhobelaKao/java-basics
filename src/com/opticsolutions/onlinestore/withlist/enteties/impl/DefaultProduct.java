@@ -1,28 +1,28 @@
-package com.opticsolutions.jcf.comporator.hw.impl;
+package com.opticsolutions.onlinestore.withlist.enteties.impl;
 
 import com.opticsolutions.jcf.comporator.hw.Product;
 
 public class DefaultProduct implements Product {
+	
 	private int id;
 	private String productName;
-	private String productCategory;
+	private String categoryName;
 	private double price;
 
+	public DefaultProduct() {
+	}
 	
-
-	 
-
-	/**
-	 * @param id
-	 * @param productName
-	 * @param productCategory
-	 * @param price
-	 */
-	public DefaultProduct(int id, String productName, String productCategory, double price) {
+	public DefaultProduct(int id, String productName, String categoryName, double price) {
 		this.id = id;
 		this.productName = productName;
-		this.productCategory = productCategory;
+		this.categoryName = categoryName;
 		this.price = price;
+	}
+
+	@Override
+	public String toString() {
+		return "Product id=" + id + ", product name=" + productName
+				+ ", category name=" + categoryName + ", price=" + price;
 	}
 
 	@Override
@@ -37,7 +37,7 @@ public class DefaultProduct implements Product {
 
 	@Override
 	public String getCategoryName() {
-		return this.productCategory;
+		return this.categoryName;
 	}
 
 	@Override
@@ -45,18 +45,8 @@ public class DefaultProduct implements Product {
 		return this.price;
 	}
 
-	@Override
-	public String toString() {
-		return "DefaultProduct [id=" + id + ", productName=" + productName + ", price=" + price + ", productCategory="
-				+ productCategory + "]";
-	}
-
 	public void setPrice(double price) {
 		this.price = price;
 	}
 	
-	
-	
-	
-
 }

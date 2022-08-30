@@ -1,13 +1,13 @@
-package com.opticsolutions.jcf.comporator.hw;
+package com.opticsolutions.onlinestore.withoutlist.enteties;
 
 public interface Product {
+
 	int getId();
 
 	String getProductName();
-	
-	String getCategoryName();
-	
+
 	double getPrice();
-	
+
+	Object setPrice(double d);
 
 }
