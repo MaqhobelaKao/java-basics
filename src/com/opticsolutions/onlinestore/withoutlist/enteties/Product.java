@@ -8,6 +8,6 @@ public interface Product {
 
 	double getPrice();
 
-	Object setPrice(double d);
+	void setPrice(double d);
 
 }
